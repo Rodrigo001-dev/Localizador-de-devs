@@ -10,4 +10,4 @@ Routes.post('/devs', DevController.store);
 
 Routes.get('/search', SearchController.index);
 
- module.exports = Routes; // Está exportando o objato Routes dentro do response
+ module.exports = Routes; // Está exportando o objeto Routes dentro do response
