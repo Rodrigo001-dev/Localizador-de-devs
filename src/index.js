@@ -11,7 +11,7 @@ const server = http.Server(app); // A partir desse momento eu tenho o meu servid
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://Rodrigo:aparecida007@cluster0-b5zoi.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://yourUser:yourPassword@cluster0-b5zoi.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
